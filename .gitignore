@@ -8,3 +8,5 @@ out/
 _legacy/
 web/node_modules/
 web/.next/
+recoveris-deploy.tar.gz
+deploy/deploy_remote.py
