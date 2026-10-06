@@ -1222,3 +1222,39 @@ h3 {
   height: auto;
   position: relative;
 }
+
+/* Contact form */
+.wpcf7 label {
+  color: var(--white);
+  display: block;
+  font-size: var(--sm-font-size);
+  margin-bottom: 16px;
+}
+
+.wpcf7 input[type="email"],
+.wpcf7 input[type="text"],
+.wpcf7 textarea {
+  background-color: var(--black);
+  border: 1px solid var(--green);
+  border-radius: var(--rounded-xs);
+  color: var(--white);
+  font-family: inherit;
+  margin-top: 6px;
+  outline: none;
+  padding: 14px 20px;
+  width: 100%;
+}
+
+.wpcf7 textarea {
+  max-height: 160px;
+  resize: vertical;
+}
+
+.wpcf7 input:focus,
+.wpcf7 textarea:focus {
+  border-color: var(--yellow);
+}
+
+.wpcf7 .btn {
+  margin-top: 8px;
+}

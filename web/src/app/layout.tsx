@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { pageMeta } from "@/content/individuals";
+import { home } from "@/content/pages";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: pageMeta.title,
-  description: pageMeta.description,
+  title: {
+    default: home.metaTitle,
+    template: "%s — Recoveris",
+  },
+  description: home.metaDescription,
   icons: {
     icon: "/favicon.png",
   },
@@ -18,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ru">
       <body>
         <Header />
         {children}

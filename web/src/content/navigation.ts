@@ -1,4 +1,4 @@
-/** Header navigation — edit labels, URLs, and submenu items here. */
+/** Навигация — все ссылки локальные. */
 export type NavLink = {
   label: string;
   href?: string;
@@ -6,64 +6,37 @@ export type NavLink = {
 };
 
 export const navigation: NavLink[] = [
-  { label: "Home", href: "https://recoveris.io/" },
+  { label: "Главная", href: "/" },
   {
-    label: "About",
+    label: "О компании",
     children: [
-      { label: "About Recoveris", href: "https://recoveris.io/#about" },
-      { label: "The Recoveris team", href: "https://recoveris.io/#team" },
-      { label: "Case studies", href: "https://recoveris.io/#casestudies" },
-      { label: "FAQ", href: "https://recoveris.io/#faq" },
-      { label: "Contact", href: "https://recoveris.io/#contact" },
+      { label: "О Recoveris", href: "/#about" },
+      { label: "Команда", href: "/#team" },
+      { label: "Кейсы", href: "/#casestudies" },
+      { label: "FAQ", href: "/#faq" },
+      { label: "Контакты", href: "/contact" },
     ],
   },
   {
-    label: "Who we help",
+    label: "Кому помогаем",
     children: [
-      { label: "Individuals", href: "/" },
-      {
-        label: "Business & VASPs",
-        href: "https://recoveris.io/solution-for-business-vasps/",
-      },
-      {
-        label: "Legal Professionals",
-        href: "https://recoveris.io/solution-for-legal-professionals/",
-      },
-      {
-        label: "Law Enforcement",
-        href: "https://recoveris.io/solution-for-law-enforcement/",
-      },
+      { label: "Частные лица", href: "/individuals" },
+      { label: "Бизнес и VASP", href: "/business" },
+      { label: "Юристы", href: "/legal" },
+      { label: "Правоохранительные органы", href: "/law-enforcement" },
     ],
   },
   {
-    label: "Services",
+    label: "Услуги",
     children: [
-      {
-        label: "Blockchain Investigation Management System",
-        href: "https://recoveris.io/blockchain-investigation-management-system/",
-      },
-      {
-        label: "Investigations",
-        href: "https://recoveris.io/blockchain-investigations/",
-      },
-      {
-        label: "Asset Recovery",
-        href: "https://recoveris.io/digital-asset-recovery/",
-      },
-      {
-        label: "Source of Funds reports",
-        href: "https://recoveris.io/source-of-funds-reports/",
-      },
-      {
-        label: "Aftercare Protocol",
-        href: "https://recoveris.io/aftercare-protocol/",
-      },
-      {
-        label: "Tailored Trainings",
-        href: "https://recoveris.io/blockchain-forensic-training/",
-      },
+      { label: "Система управления расследованиями (BIMS)", href: "/bims" },
+      { label: "Расследования", href: "/investigations" },
+      { label: "Возврат активов", href: "/recovery" },
+      { label: "Отчёты Source of Funds", href: "/source-of-funds" },
+      { label: "Aftercare Protocol", href: "/aftercare" },
+      { label: "Обучение", href: "/training" },
     ],
   },
-  { label: "Blog", href: "https://recoveris.io/blog" },
-  { label: "Knowledge Center", href: "https://recoveris.io/knowledge-center/" },
+  { label: "Блог", href: "/blog" },
+  { label: "База знаний", href: "/knowledge-center" },
 ];

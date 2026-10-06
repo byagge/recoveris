@@ -1,189 +1,189 @@
-/** Page content for "Solution For Individuals" — edit all text here. */
+/** Контент страницы «Для частных лиц» — редактируйте тексты здесь. */
 
 export const pageMeta = {
-  title: "Solution For Individuals - Recoveris",
+  title: "Решение для частных лиц — Recoveris",
   description:
-    "Every blockchain transaction leaves a permanent, traceable record. While scammers count on you giving up, Recoveris investigators are experts at following the trail they left behind - tell us what happened, and we'll review the path of your funds and give you an assessment of recovery options.",
+    "Каждая транзакция в блокчейне оставляет постоянный след. Следователи Recoveris отслеживают путь ваших средств и оценивают возможности возврата.",
 };
 
 export const hero = {
-  title: "For",
-  titleHighlight: "Individuals",
-  subtitle: "Your crypto was stolen, but it's not gone.",
+  title: "Для",
+  titleHighlight: "частных лиц",
+  subtitle: "Вашу криптовалюту украли — но она не исчезла.",
   paragraphs: [
-    "Every blockchain transaction leaves a permanent, traceable record. While scammers count on you giving up, we are able to follow the trail they left behind.",
-    "Tell us what happened. We'll review the path of your funds and give you an honest assessment of whether recovery is possible.",
+    "Каждая транзакция в блокчейне оставляет постоянный, отслеживаемый след. Пока мошенники рассчитывают, что вы сдадитесь, мы можем пройти по следу, который они оставили.",
+    "Расскажите, что произошло. Мы изучим путь ваших средств и честно оценим, возможен ли возврат.",
   ],
 };
 
 export const steps = {
-  title: "Three steps",
-  titleRest: "to recovery",
+  title: "Три шага",
+  titleRest: "к возврату",
   subtitle:
-    "We've turned the complex world of blockchain investigations into a clear, structured path toward getting your funds back.",
+    "Мы превратили сложный мир блокчейн-расследований в понятный путь к возврату ваших средств.",
   items: [
     {
-      title: "1. Initial Case Assessment",
+      title: "1. Первичная оценка дела",
       description:
-        "You tell us what happened and share your transaction details. We immediately trace the movement of your funds to determine whether they've reached a point, such as a regulated exchange, where they can be intercepted.",
+        "Вы рассказываете, что произошло, и передаёте детали транзакций. Мы сразу отслеживаем движение средств и определяем, достигли ли они точки, где их можно перехватить — например, регулируемой биржи.",
       icon: "assessment" as const,
     },
     {
-      title: "2. Strategic Recovery Plan",
+      title: "2. Стратегический план возврата",
       description:
-        "Based on our assessment, you receive a formal offer with a transparent breakdown of costs and the specific strategy we'll pursue: working with exchange compliance teams, token issuers, law enforcement, or a combination.",
+        "По итогам оценки вы получаете формальное предложение с прозрачной структурой затрат и конкретной стратегией: работа с комплаенсом бирж, эмитентами токенов, правоохранителями или их комбинацией.",
       icon: "plan" as const,
     },
     {
-      title: "3. Execution & Enforcement",
+      title: "3. Исполнение и принуждение",
       description:
-        "Our team produces court-admissible forensic reports, coordinates with the relevant authorities, and manages the freeze and recovery process. You stay informed at every stage until the funds are ready to be returned.",
+        "Команда готовит судебно-допустимые отчёты, координируется с органами и ведёт процесс заморозки и возврата. Вы получаете обновления на каждом этапе, пока средства не будут готовы к возврату.",
       icon: "enforcement" as const,
     },
   ],
 };
 
 export const scamTypes = {
-  title: "How did you lose",
-  titleHighlight: "your crypto?",
+  title: "Как вы потеряли",
+  titleHighlight: "криптовалюту?",
   subtitle:
-    "Scammers follow specific playbooks. Identifying how you were targeted is the first step in our investigation.",
+    "Мошенники действуют по определённым схемам. Понять, как вас атаковали — первый шаг расследования.",
   items: [
     {
-      title: "1. Romance Scam",
+      title: "1. Романтический скам",
       content:
-        'Someone you met on social media or a dating app built trust over weeks or months. They introduced you to a "trading platform" where your balance appeared to grow. When you tried to withdraw, they demanded additional fees, taxes, or deposits.',
+        "Человек из соцсети или dating-приложения завоевал доверие за недели или месяцы. Затем предложил «торговую платформу», где баланс рос. При попытке вывода требовали комиссии, налоги или доп. депозиты.",
     },
     {
-      title: "2. The Impersonation Scam",
+      title: "2. Импersonация (подмена)",
       content:
-        'You received an urgent call or message from someone posing as an exchange, a bank, a government agency, or tech support. They claimed your account was compromised and instructed you to move funds to a "safe wallet" or share your recovery phrase.',
+        "Срочный звонок или сообщение от «биржи», «банка», «госоргана» или «техподдержки». Утверждали, что аккаунт скомпрометирован, и просили перевести средства на «безопасный кошелёк» или сообщить seed-фразу.",
     },
     {
-      title: "3. Investment Scam",
+      title: "3. Инвестиционный скам",
       content:
-        "A platform or individual promised guaranteed returns, insider information, or risk-free profits. You invested a small amount, it appeared to double, and you were encouraged to deposit much more. Withdrawals were then blocked or made conditional on further payments.",
+        "Платформа или человек обещали гарантированную доходность или инсайд. Небольшая сумма «удвоилась», вас убедили вложить больше. Вывод заблокировали или поставили условие доп. платежей.",
     },
     {
-      title: "4. Fake Exchange or Investing Platform",
+      title: "4. Фейковая биржа или платформа",
       content:
-        "You deposited funds into what appeared to be a legitimate trading platform. It had a professional interface, customer support, and even showed your portfolio growing. But the platform was entirely fabricated, and withdrawals were never processed.",
+        "Вы внесли средства на сайт с профессиональной оболочкой и поддержкой. Портфель «рос», но платформа была полностью поддельной, а выводы никогда не обрабатывались.",
     },
     {
-      title: "5. Malicious Link or Wallet Drainer",
+      title: "5. Вредоносная ссылка / wallet drainer",
       content:
-        "You clicked a link promoting a free airdrop, NFT mint, or security update. When you connected your wallet or approved a transaction, your assets disappeared instantly.",
+        "Вы кликнули по ссылке на airdrop, NFT или «обновление безопасности». После подключения кошелька или одобрения транзакции активы исчезли мгновенно.",
     },
     {
-      title: "6. Hack or Malware",
+      title: "6. Взлом или вредоносное ПО",
       content:
-        "Your device or wallet was compromised without any direct interaction with an attacker. Malware harvested your seed phrase from your computer, a clipboard hijacker swapped the destination address during a transaction, or a malicious browser extension drained your wallet in the background. By the time you noticed the unauthorized transaction, your funds had already been moved.",
+        "Устройство или кошелёк скомпрометировали без прямого контакта: malware украл seed, clipboard-hijacker подменил адрес, вредоносное расширение опустошило кошелёк. Когда вы заметили перевод, средства уже ушли.",
     },
     {
-      title: "7. Physical Theft or Coerced Transfer",
+      title: "7. Физическая кража или принуждение",
       content:
-        'Someone gained direct physical access to your private keys, recovery phrase, hardware wallet, or login credentials — through a stolen device, a break-in, or written notes kept at home or in the office. In more severe cases, victims are threatened or physically forced to transfer their crypto themselves, known as a "wrench attack." The transaction looks legitimate on-chain, which is exactly why forensic tracing of where the funds moved next is critical to any recovery effort.',
+        "Доступ к ключам, seed, hardware-кошельку или логинам — через кражу устройства, взлом или записи дома/в офисе. В тяжёлых случаях жертву принуждают перевести крипту («wrench attack»). Транзакция выглядит легитимной on-chain — поэтому трассировка критична.",
     },
   ],
   alert: {
-    title: "Don't see your exact situation?",
-    text: "It doesn't matter. Our forensic tools look past the story and follow the actual movement of assets on the blockchain. Every scam leaves a trail.",
+    title: "Не видите свою ситуацию?",
+    text: "Это не важно. Наши инструменты смотрят не на историю, а на реальное движение активов в блокчейне. У каждого скама есть след.",
   },
 };
 
 export const whyRecoveris = {
-  title: "Why",
+  title: "Почему",
   titleHighlight: "Recoveris",
   items: [
     {
-      title: "Swiss-based, globally connected",
+      title: "Швейцария и глобальные связи",
       description:
-        "Headquartered in Zug, Switzerland, we're part of international task forces led by Interpol and have direct channels to compliance teams at 150+ crypto exchanges — so when stolen funds hit a platform that can freeze them, we know who to call.",
+        "Штаб-квартира в Цуге. Мы участвуем в международных task force под эгидой Interpol и имеем прямые каналы к комплаенсу 150+ криптобирж — когда украденные средства попадают на платформу, где их можно заморозить, мы знаем, кому звонить.",
       icon: "swiss" as const,
     },
     {
-      title: "A team you can verify",
+      title: "Команда, которую можно проверить",
       description:
-        "Our investigators come from law enforcement, government financial intelligence, and leading blockchain firms. They publish research, speak at major industry events, and train authorities worldwide. Search their names, check their credentials.",
+        "Следователи из правоохранения, финансовой разведки и ведущих блокчейн-компаний. Публикуют исследования, выступают на отраслевых событиях, обучают органы по всему миру. Ищите их имена — проверяйте регалии.",
       icon: "verify" as const,
     },
     {
-      title: "Heritage in law enforcement",
+      title: "Опыт правоохранения",
       description:
-        "We are former law enforcement officers, financial intelligence experts, and forensic specialists. We know how criminals think and what prosecutors need to act. Today, we work with cybercrime units in 30+ countries and train investigators alongside the OSCE, Guardia di Finanza, and Cambridge University.",
+        "Бывшие сотрудники правоохранительных органов, эксперты FIU и форензики. Мы знаем, как думают преступники и что нужно прокурорам. Работаем с киберподразделениями в 30+ странах и обучаем следователей вместе с OSCE, Guardia di Finanza и Cambridge University.",
       icon: "heritage" as const,
     },
     {
-      title: "Human expertise, enhanced by AI",
+      title: "Экспертиза людей + AI",
       description:
-        "Automated tools hit dead ends at mixers and bridges. Our team combines proprietary technology with hands-on forensic analysis to trace funds through obfuscation techniques that software alone cannot follow.",
+        "Автоматические инструменты буксуют на миксерах и бриджах. Мы сочетаем собственные технологии и ручной форензик-анализ, чтобы проходить через методы запутывания, недоступные одному только ПО.",
       icon: "ai" as const,
     },
   ],
   warning: {
-    title: "Be aware of crypto recovery scammers!",
-    text: "Be cautious of fraudulent recovery firms that use pressure, artificial urgency, or promise guaranteed outcomes. Always verify you are interacting through official domains, check for media presence, and confirm team profiles on platforms like LinkedIn.",
-    linkLabel: "More information",
-    linkHref: "https://recoveris.io/impersonation-recovery-scams-warning/",
+    title: "Осторожно: мошенники «возврата крипты»!",
+    text: "Остерегайтесь фейковых «recovery»-фирм с давлением, искусственной срочностью и гарантиями результата. Проверяйте домены, медиаприсутствие и профили команды.",
+    linkLabel: "Подробнее",
+    linkHref: "/scam-warning",
   },
 };
 
 export const team = {
-  title: "Meet your",
-  titleHighlight: "investigators",
+  title: "Ваши",
+  titleHighlight: "следователи",
   subtitle:
-    "We know that every case carries real urgency and personal consequences. Our investigators have handled thousands of cases and recovered millions in stolen assets, combining advanced forensic techniques with hands-on case management to pursue the best possible outcome for you.",
+    "За каждым делом — реальная срочность и личные последствия. Наши следователи вели тысячи кейсов и вернули миллионы в украденных активах, сочетая форензику с управлением делом.",
   members: [
     {
       name: "Sol Cinosi",
       position: "Chief Government & Corporate Affairs Officer",
       image: "/images/team/sol-cinosi.png",
-      linkedin: "http://linkedin.com/in/solcinosi",
-      bio: "Attorney, co-created the Specialized Cryptoasset Investigation Task Force within the Cybercrime Department of the Public Prosecutor's Office of Buenos Aires, with 10+ years in criminal investigations. Expert in cross-border enforcement and virtual asset recovery. GBBC Ambassador and AWIC Spain Chapter President. International educator and speaker, coordinating global training for investigators and prosecutors on illicit crypto flows.",
+      linkedin: "#",
+      bio: "Адвокат, соавтор Specialized Cryptoasset Investigation Task Force в прокуратуре Буэнос-Айреса, 10+ лет уголовных расследований. Эксперт по трансграничному принуждению и возврату виртуальных активов.",
     },
     {
       name: "Umberto Buonora",
       position: "Head of Investigations",
       image: "/images/team/umberto-buonora.png",
-      linkedin: "https://www.linkedin.com/in/umberto-buonora-158569197/",
-      bio: "Former Italian Law Enforcement (Guardia di Finanza) with 10+ years in cybercrime. Creator of virtual asset seizure methodologies used by police forces.",
+      linkedin: "#",
+      bio: "Бывший сотрудник Guardia di Finanza, 10+ лет в киберпреступности. Автор методологий изъятия виртуальных активов для полицейских служб.",
     },
     {
       name: "Alessandro Rella",
       position: "Blockchain Investigations Manager",
       image: "/images/team/alessandro-rella.png",
-      linkedin: "https://www.linkedin.com/in/alessandrorella/",
-      bio: "Former Police Detective and Head of Digital Forensics at Guardia di Finanza. Expert in Darkweb investigations and creator of the CWFE certification.",
+      linkedin: "#",
+      bio: "Бывший детектив и руководитель цифровой форензики Guardia di Finanza. Эксперт по Darkweb и автор сертификации CWFE.",
     },
     {
       name: "Dominik Konopacki",
       position: "Blockchain Investigations Manager",
       image: "/images/team/dominik-konopacki.png",
-      linkedin: "https://www.linkedin.com/in/dominik-konopacki-443737191/",
-      bio: "Specialist in privacy-oriented protocols and demixing. Provides high-stakes Source of Funds analysis for Swiss banks.",
+      linkedin: "#",
+      bio: "Специалист по privacy-протоколам и demixing. Высокорисковый Source of Funds-анализ для швейцарских банков.",
     },
     {
       name: "Dawid Koperski",
       position: "Blockchain Investigations Manager",
       image: "/images/team/dawid-koperski.png",
-      linkedin: "https://www.linkedin.com/in/dawidkoperski/",
-      bio: "Former Global Investigations Lead at MoonPay. Certified expert across multiple industry-leading forensic platforms; Specialist in AML and sanction evasion detection.",
+      linkedin: "#",
+      bio: "Бывший Global Investigations Lead в MoonPay. Сертифицированный эксперт по ведущим форензик-платформам; AML и уклонение от санкций.",
     },
     {
       name: "Aleksandra Grevceva",
       position: "Junior Blockchain Investigator",
       image: "/images/team/aleksandra-grevceva.png",
-      linkedin: "https://www.linkedin.com/in/aleksandra-grevceva/",
-      bio: "Former diplomat with 8 years at Latvia's Ministry of Foreign Affairs, including a posting at the Embassy of Latvia in Beijing, specializing in Asia-focused foreign policy analysis and diplomatic engagement. Background in investigative journalism and OSINT, now applied to blockchain intelligence and on-chain investigations. Fluent in Russian, English, Latvian, and Chinese, with working Spanish.",
+      linkedin: "#",
+      bio: "Бывший дипломат МИД Латвии (8 лет), в т.ч. посольство в Пекине. Фон в расследовательской журналистике и OSINT, применяемый к блокчейн-разведке.",
     },
   ],
   videos: [
     {
-      title: "YouTube video player",
+      title: "Видео",
       src: "https://www.youtube.com/embed/cwsvqd1nD4s?si=AiYceih5Btj4eSaI",
     },
     {
-      title: "YouTube video player",
+      title: "Видео",
       src: "https://www.youtube.com/embed/4KZuiWkdHIc?si=VWanYmRxzvew70mK",
     },
   ],
@@ -193,44 +193,44 @@ export const faq = {
   title: "FAQ",
   items: [
     {
-      question: "1. Is it really possible to get my crypto back?",
+      question: "1. Реально ли вернуть криптовалюту?",
       answer:
-        "Yes. Blockchain transactions are permanent, publicly visible records, which means the funds aren't invisible. We trace the movement of stolen assets until they reach a chokepoint, like a regulated exchange where the scammer tries to convert them. At that point, we work with authorities and platforms to freeze and recover the funds.",
+        "Да. Транзакции в блокчейне — постоянные публичные записи. Мы отслеживаем движение украденных активов до «узкого места» — например, регулируемой биржи, где мошенник пытается обналичить. Затем работаем с органами и платформами по заморозке и возврату.",
     },
     {
-      question: "2. How long does the recovery process take?",
+      question: "2. Сколько длится процесс?",
       answer:
-        "Every case is different. If funds have moved quickly to a compliant exchange, action can sometimes happen within days. Complex cases involving legal proceedings or international coordination can take weeks or months. We provide a realistic timeline after our initial assessment.",
+        "Каждый кейс уникален. Если средства быстро попали на комплаентную биржу, действия возможны за дни. Сложные дела с судом и международной координацией занимают недели или месяцы. Реалистичные сроки даём после первичной оценки.",
     },
     {
-      question: "3. How much will this cost me?",
+      question: "3. Сколько это стоит?",
       answer:
-        "Our process starts with a case review. If we determine your funds are recoverable, we provide a formal offer based on the complexity of the investigation. No hidden fees, and we only proceed when there is a clear strategy.",
+        "Начинаем с разбора дела. Если возврат реален — формальное предложение по сложности расследования. Без скрытых комиссий; продолжаем только при понятной стратегии.",
     },
     {
-      question: "4. Do I need to file a police report first?",
+      question: "4. Нужно ли сначала писать заявление в полицию?",
       answer:
-        "You don't need a report to start our analysis, but we strongly recommend filing one. Our forensic reports are designed to be court-admissible, giving police and prosecutors exactly what they need to act. We can guide you on what information to include.",
+        "Для старта анализа — нет, но мы настоятельно рекомендуем подать. Наши отчёты готовятся как судебно-допустимые — полиции и прокурорам проще действовать. Подскажем, что указать.",
     },
     {
-      question: '5. Can you still help if the scammers used a "mixer" or "bridge"?',
+      question: "5. Поможете, если использовали «mixer» или «bridge»?",
       answer:
-        "Yes. Many people believe that mixers or cross-chain bridges make crypto untraceable. While they add complexity, our investigators use advanced techniques and proprietary tools to follow the trail through these obfuscation layers to the final destination.",
+        "Да. Многие считают, что миксеры и кросс-чейн бриджи делают крипту неотслеживаемой. Они усложняют путь, но следователи с продвинутыми и собственными инструментами проходят эти слои до конечной точки.",
     },
     {
-      question: "6. Why do I need to tell you what happened before we speak?",
+      question: "6. Зачем рассказывать детали до разговора?",
       answer:
-        "Speed matters in recovery. By sharing your transaction details upfront, our investigators can immediately check the blockchain and assess where your funds are. This means our first conversation can focus on a real recovery strategy instead of intake.",
+        "В возврате критична скорость. Передав детали транзакций заранее, следователи сразу проверяют блокчейн. Первый разговор уже о стратегии, а не о сборе анкеты.",
     },
     {
-      question: "7. How do I know Recoveris is legitimate and not another scam?",
+      question: "7. Как понять, что Recoveris — не очередной скам?",
       answer:
-        "We understand the concern. After being scammed once, trust is hard. Here's how to verify us: our team members have public LinkedIn profiles with years of professional history, we are referenced in industry media, we collaborate with organizations like the OSCE and Circle, and we are a registered Swiss company with a physical headquarters in Zug.",
+        "После скама доверять сложно. Проверьте: публичные LinkedIn команды, упоминания в отраслевых медиа, сотрудничество с OSCE и Circle, зарегистрированная швейцарская компания с офисом в Цуге.",
     },
   ],
 };
 
 export const cta = {
-  title: "Don't let your stolen crypto become a permanent loss",
-  text: "Every hour matters. The longer you wait, the harder recovery becomes. Scammers move fast to hide stolen funds. But as long as assets are moving, there is a trail our investigators can follow. Tell us what happened, and we'll give you an assessment of your options.",
+  title: "Не дайте украденной крипте стать безвозвратной потерей",
+  text: "Каждый час важен. Чем дольше ждёте, тем сложнее возврат. Мошенники быстро прячут средства. Но пока активы движутся — есть след. Расскажите, что случилось, и мы оценим ваши варианты.",
 };

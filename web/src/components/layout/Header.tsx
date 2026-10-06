@@ -1,9 +1,36 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { navigation } from "@/content/navigation";
 import { site } from "@/content/site";
+
+function AppLink({
+  href,
+  className,
+  children,
+  onClick,
+}: {
+  href: string;
+  className?: string;
+  children: React.ReactNode;
+  onClick?: () => void;
+}) {
+  const external = href.startsWith("http") || href.startsWith("mailto:");
+  if (external) {
+    return (
+      <a href={href} className={className} onClick={onClick}>
+        {children}
+      </a>
+    );
+  }
+  return (
+    <Link href={href} className={className} onClick={onClick}>
+      {children}
+    </Link>
+  );
+}
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -36,7 +63,7 @@ export function Header() {
     >
       <div className="container">
         <div className="header-wrapper">
-          <a className="header-logo" href={site.url} aria-label={site.name}>
+          <AppLink className="header-logo" href="/" onClick={closeMenu}>
             <Image
               src="/images/logo.svg"
               alt={site.name}
@@ -44,13 +71,12 @@ export function Header() {
               height={40}
               priority
             />
-          </a>
+          </AppLink>
 
           <button
             type="button"
             className={`header-trigger${menuOpen ? " active" : ""}`}
-            id="menu-trigger"
-            aria-label="Toggle menu"
+            aria-label="Меню"
             aria-expanded={menuOpen}
             onClick={() => setMenuOpen((v) => !v)}
           >
@@ -90,37 +116,37 @@ export function Header() {
                     >
                       {item.children.map((child) => (
                         <li key={child.href}>
-                          <a
+                          <AppLink
                             href={child.href}
                             className="header-link"
                             onClick={closeMenu}
                           >
                             {child.label}
-                          </a>
+                          </AppLink>
                         </li>
                       ))}
                     </ul>
                   </li>
                 ) : (
                   <li key={item.label}>
-                    <a
-                      href={item.href}
+                    <AppLink
+                      href={item.href ?? "/"}
                       className="header-link"
                       onClick={closeMenu}
                     >
                       {item.label}
-                    </a>
+                    </AppLink>
                   </li>
                 ),
               )}
               <li>
-                <a
+                <AppLink
                   href={site.headerCta.href}
                   className="btn btn--outline"
                   onClick={closeMenu}
                 >
                   {site.headerCta.label}
-                </a>
+                </AppLink>
               </li>
             </ul>
           </nav>

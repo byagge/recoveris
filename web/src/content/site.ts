@@ -1,31 +1,31 @@
-/** Site-wide settings — edit here to update branding, CTAs, and links. */
+/** Настройки сайта — меняйте бренд, CTA и ссылки здесь. */
 export const site = {
   name: "Recoveris",
   legalName: "Recoveris AG",
-  tagline: "Agentic investigations for the on-chain economy",
-  url: "https://recoveris.io",
-  email: "contact@recoveris.io",
+  tagline: "Агентные расследования для on-chain экономики",
+  url: "/",
+  email: "contact@recoveris.arix.vu",
   address: {
     street: "Poststrasse 24",
     city: "6300 Zug",
-    country: "Switzerland",
+    country: "Швейцария",
   },
   social: {
-    linkedin: "https://www.linkedin.com/company/recoveris/",
-    x: "https://x.com/RecoverisTeam",
-    youtube: "https://www.youtube.com/@recoveris",
+    linkedin: "#",
+    x: "#",
+    youtube: "#",
   },
   cta: {
-    label: "Start Your Recovery",
-    href: "https://my.recoveris.io/wizard?source=Website_WW_solution-for-individuals&lang=EN",
+    label: "Начать возврат средств",
+    href: "/contact",
   },
   headerCta: {
-    label: "RECOVER YOUR FUNDS",
-    href: "https://my.recoveris.io/wizard?source=Website_WW_solution-for-individuals&lang=EN",
+    label: "ВЕРНУТЬ СРЕДСТВА",
+    href: "/contact",
   },
-  copyright: "© 2026 Recoveris. All rights reserved.",
+  copyright: "© 2026 Recoveris. Все права защищены.",
   footerLinks: [
-    { label: "Terms & Conditions", href: "https://recoveris.io/terms-and-conditions" },
-    { label: "Privacy Policy", href: "https://recoveris.io/privacy-policy" },
+    { label: "Условия использования", href: "/terms" },
+    { label: "Политика конфиденциальности", href: "/privacy" },
   ],
 } as const;
