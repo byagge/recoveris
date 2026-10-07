@@ -6,7 +6,11 @@ out/
 .env*
 .vercel
 _legacy/
+_zips/
+_pages/
+*.zip
 web/node_modules/
 web/.next/
 recoveris-deploy.tar.gz
 deploy/deploy_remote.py
+CONTENT_EXTRACT_EN.md
